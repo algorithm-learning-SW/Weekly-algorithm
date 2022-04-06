@@ -3,5 +3,5 @@ push하지말아주세욥😋 Only pull만 하는 브랜치
 
 2. 문제 파일명은 M(월)W(주차)N(숫자)
 디렉토리
-questList
-  ㄴ ex) M3W4N1_삼각달팽이 : 3월4주차문제
+questList  
+ㄴ ex) M3W4N1_삼각달팽이 : 3월4주차문제  
