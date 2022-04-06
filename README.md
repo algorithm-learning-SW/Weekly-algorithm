@@ -1,3 +1,7 @@
-1. 문제풀이 답안 파일명은 문제 파일명_이니셜로 통일합니다  
-  ex) M3W4N1_삼각달팽이 > M3W4N1_WGY
-2. push이전에 algorithmAnswer에는 pull requests로 요청주세요.
+1. 문제가 올라오는 브랜치입니다.
+push하지말아주세욥😋 Only pull만 하는 브랜치
+
+2. 문제 파일명은 M(월)W(주차)N(숫자)  
+디렉토리  
+questList  
+ㄴ ex) M3W4N1_삼각달팽이 : 3월4주차문제  
