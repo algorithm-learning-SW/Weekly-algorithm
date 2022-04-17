@@ -1,7 +1,31 @@
 public class M4W2N1_WGY {
     public static void main(String[] args){
-        System.out.println("s");
+        System.out.println(finalDaejin(16,1,7));
     }
+
+    public static int  finalDaejin(int n, int a, int b){
+        // 2로 나누고 > 뭘 더해야하는 것 같은데
+        int answer = 0;
+
+        // 계속해서 채번을 해주고 서로 겨루는 경우마다 answer+1을 해주고 대진표가 1 2 3 4 > 1 2 > 1(최종)이니까 같아 지는 순간에 answer를 return하면 될것같음
+        // for문은 내가 끝나는 횟수를 알아야하는데 그거구하느니.. while문으로 계속 겨룸 > 가지고 있는 숫자가 같아지면 break
+        // (현재 자신의 번호+1) / 2 = 다음 라운드에서의 번호니까.. 12 > 1 , 34 > 2
+
+        while(true){
+            a = (a+1)/2;
+            b = (b+1)/2;
+            answer++;
+            if(a==b){
+                break;
+            }
+        }
+        // 오케이 통과 ㅋㅋ
+        // 풀고나서 보니까 b/2 + b%2;라고 산정한사람들이 있는데 이건 뭐임?? 오ㅑ 나머지를 더하지??
+        // 아 위에거 풀어쓴건가보다 위에는 몫을 무조건 나오도록하는거면 다른식은 홀수의 나머지를 더하는느낌
+
+        return answer;
+    }
+
 
     public static int Daejin(int n, int a, int b){
 
